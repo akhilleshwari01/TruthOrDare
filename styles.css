@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    border: 0%;
+    margin: 0%;
+}
+body{
+    height: 30vw;
+    background: linear-gradient( to bottom, black 50%,white 50%);
+
+}
+h1{
+    font-size: 50px;
+    color: purple;
+    text-align: center;
+    padding-top: 10vw;
+}
+.container{
+    padding-left: 30vw;
+    padding-top: 70px;
+}
+button{
+    height: 50px;
+    width: 250px;
+    margin-left: 40px;
+    background-color: purple;
+    font-size: 25px;
+    color: white;
+}
+.displaycontainer{
+    padding-left: 33vw;
+    padding-top: 40px;
+    font-size: 30px;
+    color: blueviolet;
+}
+@media screen and ( max-width :800px){
+.container{
+        position: relative;
+        right:20vw;
+}  
+button{
+    position: relative;
+    top:20vw;
+    margin-top: 20px;
+} 
+.displaycontainer{
+    position: relative;
+    top: 35vw;
+    right: 5vw;
+} 
+    
+}
